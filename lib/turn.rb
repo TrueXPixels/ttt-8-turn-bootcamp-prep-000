@@ -1,3 +1,4 @@
+# This method sets a move for the current player on the board
 def move(board, input, player = "X")
   board[input] = player
   display_board(board)
